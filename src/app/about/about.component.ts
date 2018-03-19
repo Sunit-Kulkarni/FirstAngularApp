@@ -21,7 +21,7 @@ export class AboutComponent implements OnInit {
   }
 
   ngOnInit() {
-    this._data.goals.subscribe(res => (this.goals = res));
+    this._data.goal.subscribe(res => (this.goals = res));
   }
 
   sendMeHome() {
